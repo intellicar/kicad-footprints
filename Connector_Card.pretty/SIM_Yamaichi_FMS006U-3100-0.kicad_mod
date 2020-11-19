@@ -1,6 +1,6 @@
-(module SIM_FMS006U-3100-0 (layer F.Cu) (tedit 5ED7B830)
+(module SIM_Yamaichi_FMS006U-3100-0 (layer F.Cu) (tedit 5FB53075)
   (descr "Low Profile SIM Connector with Stop")
-  (tags SIM_HOLDER)
+  (tags "SIM Card Holder")
   (attr smd)
   (fp_text reference J6 (at 10.1727 -0.0889 -90) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
