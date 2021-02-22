@@ -1,0 +1,8 @@
+(module 800MHz-1200MHz_antenna (layer F.Cu) (tedit 602B673E)
+  (fp_text reference REF** (at -8.15 -8.12) (layer F.SilkS)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value 800MHz-1200MHz_antenna (at 0.03 -6.47) (layer F.Fab)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+)
