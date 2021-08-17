@@ -1,4 +1,4 @@
-(module nRF52833-QIAA-R (layer F.Cu) (tedit 60C765A5)
+(module nRF52833-QIAA-R (layer F.Cu) (tedit 611A4659)
   (attr smd)
   (fp_text reference U2 (at -4.4358 -3.7356) (layer F.SilkS)
     (effects (font (size 0.6 0.6) (thickness 0.1)))
@@ -242,6 +242,10 @@
   (pad A12 smd circle (at -0.25 -3.25) (size 0.275 0.275) (layers F.Cu))
   (pad A10 smd circle (at -0.75 -3.25) (size 0.275 0.275) (layers F.Cu))
   (pad A8 smd circle (at -1.25 -3.25) (size 0.275 0.275) (layers F.Cu))
+  (pad 74 smd roundrect (at -1.143 -1.143) (size 1.75 1.75) (layers F.Cu F.Paste) (roundrect_rratio 0.25))
+  (pad 74 smd roundrect (at 1.143 -1.143) (size 1.75 1.75) (layers F.Cu F.Paste) (roundrect_rratio 0.25))
+  (pad 74 smd roundrect (at 1.143 1.143) (size 1.75 1.75) (layers F.Cu F.Paste) (roundrect_rratio 0.25))
+  (pad 74 smd roundrect (at -1.143 1.143) (size 1.75 1.75) (layers F.Cu F.Paste) (roundrect_rratio 0.25))
   (model ${KISYS3DMOD}/RF_Module.3dshapes/nRF52833-QIAA.step
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
