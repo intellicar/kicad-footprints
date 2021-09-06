@@ -1,9 +1,9 @@
-(module INT-nRF-01_Footprint (layer F.Cu) (tedit 6130D635)
+(module Intellicar_nRF-01_Footprint (layer F.Cu) (tedit 6135D2DE)
   (attr smd)
   (fp_text reference REF** (at 0.06 -10.04 180) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (fp_text value INT-nRF-01_Footprint (at 0.01 -3.72 180) (layer F.Fab)
+  (fp_text value Intellicar_nRF-01_Footprint (at 0.01 -3.72 180) (layer F.Fab)
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (fp_line (start 12.4 -11) (end -12.4 -11) (layer F.CrtYd) (width 0.12))
@@ -82,7 +82,7 @@
   (pad 18 smd roundrect (at 5.25 10.8 180) (size 1 2.54) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25))
   (pad 19 smd roundrect (at 6.75 10.8 180) (size 1 2.54) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25))
   (pad 20 smd roundrect (at 8.25 10.8 180) (size 1 2.54) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25))
-  (model ${KISYS3DMOD}/RF_Module.3dshapes/INT_aQFN_nRF-01.step
+  (model ${KISYS3DMOD}/RF_Module.3dshapes/Intellicar_aQFN_nRF-01.step
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

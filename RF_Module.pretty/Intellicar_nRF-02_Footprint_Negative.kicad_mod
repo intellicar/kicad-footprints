@@ -1,9 +1,9 @@
-(module INT-nRF-02_Footprint_Negative (layer F.Cu) (tedit 6135C0A6)
+(module Intellicar_nRF-02_Footprint_Negative (layer F.Cu) (tedit 6135D29A)
   (attr smd)
-  (fp_text reference U1 (at 0 -0.75) (layer F.SilkS) hide
+  (fp_text reference REF** (at 0 -0.75) (layer F.SilkS) hide
     (effects (font (size 1.25 1.25) (thickness 0.15)))
   )
-  (fp_text value INT_nRF-02 (at 0 0.75) (layer F.Fab)
+  (fp_text value Intellicar_nRF-02 (at 0 0.75) (layer F.Fab)
     (effects (font (size 1.25 1.25) (thickness 0.15)))
   )
   (fp_line (start 11 -7) (end 11 7) (layer F.SilkS) (width 0.12))
