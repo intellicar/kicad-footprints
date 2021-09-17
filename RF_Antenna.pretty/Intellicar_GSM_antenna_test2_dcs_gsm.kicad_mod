@@ -1,6 +1,6 @@
-(module Intellicar_GSM_antenna_test2_dcs_gsm (layer F.Cu) (tedit 60C763A4)
+(module Intellicar_GSM_Antenna_test2_dcs_gsm (layer F.Cu) (tedit 61389649)
   (attr virtual)
-  (fp_text reference REF** (at -6.52 -4.81) (layer F.SilkS)
+  (fp_text reference REF** (at -6.52 -4.81) (layer F.SilkS) hide
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (fp_text value gsm_antenna_test2_dcs_gsm (at 2.07 -6.74) (layer F.Fab)

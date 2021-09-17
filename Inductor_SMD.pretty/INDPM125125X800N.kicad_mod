@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 (module INDPM125125X800N (layer F.Cu) (tedit 61413CCC)
+=======
+(module INDPM125125X800N (layer F.Cu) (tedit 61406278)
+>>>>>>> f872247d01a7ca21f83096a17cc71568a0f1b547
   (descr SRR1280-330M-11)
   (tags Inductor)
   (attr smd)
@@ -6,6 +10,7 @@
     (effects (font (size 1.27 1.27) (thickness 0.254)))
   )
   (fp_text value INDPM125125X800N (at 0 0) (layer F.SilkS) hide
+<<<<<<< HEAD
     (effects (font (size 1.27 1.27) (thickness 0.254)))
   )
   (fp_line (start -6.25 6.25) (end 6.25 6.25) (layer F.SilkS) (width 0.2))
@@ -24,9 +29,29 @@
   (pad 1 smd rect (at -5.05 0) (size 3.75 5.2) (layers F.Cu F.Paste F.Mask))
   (pad 2 smd rect (at 5.05 0) (size 3.75 5.2) (layers F.Cu F.Paste F.Mask))
   (model SRR1280-330M.stp
+=======
+    (effects (font (size 1.27 1.27) (thickness 0.254)))
+  )
+  (fp_line (start -7.175 -6.65) (end 7.175 -6.65) (layer F.CrtYd) (width 0.05))
+  (fp_line (start 7.175 -6.65) (end 7.175 6.65) (layer F.CrtYd) (width 0.05))
+  (fp_line (start 7.175 6.65) (end -7.175 6.65) (layer F.CrtYd) (width 0.05))
+  (fp_line (start -7.175 6.65) (end -7.175 -6.65) (layer F.CrtYd) (width 0.05))
+  (fp_line (start -6.25 -6.25) (end 6.25 -6.25) (layer F.Fab) (width 0.1))
+  (fp_line (start 6.25 -6.25) (end 6.25 6.25) (layer F.Fab) (width 0.1))
+  (fp_line (start 6.25 6.25) (end -6.25 6.25) (layer F.Fab) (width 0.1))
+  (fp_line (start -6.25 6.25) (end -6.25 -6.25) (layer F.Fab) (width 0.1))
+  (fp_line (start 6.25 -6.25) (end -6.25 -6.25) (layer F.SilkS) (width 0.2))
+  (fp_line (start -6.25 6.25) (end 6.25 6.25) (layer F.SilkS) (width 0.2))
+  (fp_text user %R (at 0 0) (layer F.Fab)
+    (effects (font (size 1.27 1.27) (thickness 0.254)))
+  )
+  (pad 1 smd rect (at -5.05 0) (size 3.75 5.2) (layers F.Cu F.Paste F.Mask))
+  (pad 2 smd rect (at 5.05 0) (size 3.75 5.2) (layers F.Cu F.Paste F.Mask))
+  (model ${KISYS3DMOD}/Inductor_SMD.3dshapes/L_Bourns-SRR1280.stp
+>>>>>>> f872247d01a7ca21f83096a17cc71568a0f1b547
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
+    (rotate (xyz -90 0 90))
   )
   (model C:/Users/Aditya/MySpace/git-clones-hardware/Layer5RelayBoxHW/libraries/step-files/MSS1260-333MLD.stp
     (at (xyz 0 0 0))
