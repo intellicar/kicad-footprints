@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-(module SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.41x3.3mm (layer F.Cu) (tedit 61413866)
-=======
 (module SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.41x3.3mm (layer F.Cu) (tedit 61405E30)
->>>>>>> f872247d01a7ca21f83096a17cc71568a0f1b547
   (descr "SOIC, 8 Pin (http://www.allegromicro.com/~/media/Files/Datasheets/A4950-Datasheet.ashx#page=8), generated with kicad-footprint-generator ipc_gullwing_generator.py")
   (tags "SOIC SO")
   (attr smd)
@@ -41,21 +37,9 @@
   (pad 6 smd roundrect (at 2.475 0.635) (size 1.95 0.6) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25))
   (pad 7 smd roundrect (at 2.475 -0.635) (size 1.95 0.6) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25))
   (pad 8 smd roundrect (at 2.475 -1.905) (size 1.95 0.6) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25))
-<<<<<<< HEAD
-  (model ${KISYS3DMOD}/Package_SO.3dshapes/SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.41x3.3mm.wrl
-=======
   (model ${KISYS3DMOD}/Package_SO.3dshapes/SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.41x3.3mm.step
->>>>>>> f872247d01a7ca21f83096a17cc71568a0f1b547
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 90))
   )
-<<<<<<< HEAD
-  (model C:/Users/Aditya/MySpace/git-clones-hardware/Layer5RelayBoxHW/libraries/step-files/MP9486AGN.stp
-    (at (xyz 0 0 0))
-    (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
-  )
-=======
->>>>>>> f872247d01a7ca21f83096a17cc71568a0f1b547
 )
