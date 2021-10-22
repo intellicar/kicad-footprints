@@ -1,4 +1,4 @@
-(module XCVR_APARM2508S-SG3L5 (layer F.Cu) (tedit 60914D25)
+(module XCVR_APARM2508S-SG3L5 (layer F.Cu) (tedit 615FD688)
   (descr "Multiband GPS/GLONASS/BEIDOU/GALILEO antenna")
   (tags "Multiband GPS/GLONASS/BEIDOU/GALILEO antenna")
   (fp_text reference REF** (at 0.0381 -13.53058) (layer F.SilkS)
@@ -7,6 +7,7 @@
   (fp_text value XCVR_APARM2508S-SG3L5 (at 0.02794 13.67536) (layer F.Fab)
     (effects (font (size 1 1) (thickness 0.15)))
   )
+  (fp_circle (center -0.00254 2.46888) (end 1.388239 2.46888) (layer B.CrtYd) (width 0.05))
   (fp_line (start 6 -9) (end 9 -6) (layer F.Fab) (width 0.127))
   (fp_line (start 10.4902 12.55014) (end -10.51306 12.55014) (layer F.SilkS) (width 0.127))
   (fp_line (start -12.55268 10.48258) (end -12.55268 -10.48258) (layer F.SilkS) (width 0.127))
