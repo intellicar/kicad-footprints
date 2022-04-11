@@ -1,6 +1,6 @@
 (footprint "Intellicar_GSM_Antenna_Teltonika" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 62288DFD)
+  (tedit 6241C433)
   (attr exclude_from_pos_files exclude_from_bom)
   (fp_text reference "REF**" (at -12.78 -24.08) (layer "F.SilkS") hide
     (effects (font (size 1 1) (thickness 0.15)))
@@ -12,8 +12,8 @@
   )
   (fp_poly (pts
       (xy 0.39 -0.9)
-      (xy 12.444904 -0.9)
-      (xy 12.444904 -1.5)
+      (xy 11.708304 -0.9)
+      (xy 11.708304 -1.5)
       (xy 2.64 -1.5)
       (xy 2.64 -17.66)
       (xy 6.33 -17.66)
