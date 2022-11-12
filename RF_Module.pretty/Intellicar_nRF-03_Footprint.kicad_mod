@@ -96,7 +96,7 @@
   (zone (net 0) (net_name "") (layer "F.Cu") (tstamp 9c3fca7d-3b27-4e70-a9d4-0716090613d9) (hatch edge 0.508)
     (connect_pads (clearance 0))
     (min_thickness 0.254)
-    (keepout (tracks allowed) (vias allowed) (pads allowed ) (copperpour not_allowed) (footprints allowed))
+    (keepout (tracks allowed) (vias allowed) (pads allowed) (copperpour not_allowed) (footprints allowed))
     (fill (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
@@ -108,7 +108,7 @@
     )
   )
   (model "${KICAD6_3DMODEL_DIR}/RF_Module.3dshapes/Intellicar_aQFN_nRF-03.step"
-    (offset (xyz 0 0 0.5))
+    (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
   )
