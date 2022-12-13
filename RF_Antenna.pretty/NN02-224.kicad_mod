@@ -1,7 +1,7 @@
 (footprint "NN02-224" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
   (tedit 62D6BA43)
-  (attr through_hole)
+  (attr smd)
   (fp_text reference "REF**" (at 0.0254 -4.191) (layer "F.SilkS")
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp cc161d39-3ec7-4def-9ca5-a6544a391283)
@@ -36,9 +36,9 @@
   (fp_circle (center -6.7 0) (end -6.6 0) (layer "F.Fab") (width 0.2) (fill none) (tstamp 282cd679-f069-4405-9648-94be1f4d3a5f))
   (pad "1" smd rect (at -5 0) (size 2.2 3.2) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 06600698-ccab-45cf-ba92-8e98b21720b1))
   (pad "2" smd rect (at 5 0) (size 2.2 3.2) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 84e90438-9f47-4567-aff7-252792b2fe3d))
-  (model "${KICAD6_3DMODEL_DIR}/RF_Antenna.3dshapes/NN01-224.step"
+  (model "${KICAD6_3DMODEL_DIR}/RF_Antenna.3dshapes/NN02-224.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
+    (rotate (xyz -90 0 0))
   )
 )

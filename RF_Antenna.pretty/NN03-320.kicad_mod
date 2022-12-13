@@ -1,7 +1,7 @@
 (footprint "NN03-320" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
   (tedit 62D6BA19)
-  (attr through_hole)
+  (attr smd)
   (fp_text reference "REF**" (at 0 -3.6322) (layer "F.SilkS")
     (effects (font (size 0.8 0.8) (thickness 0.15)))
     (tstamp a14d38fa-002c-45e0-abcf-b7efebb984ba)
@@ -33,7 +33,7 @@
   (zone (net 0) (net_name "") (layer "F.Cu") (tstamp a35932d9-2abb-40fc-a432-2724d84e389b) (hatch full 0.508)
     (connect_pads (clearance 0))
     (min_thickness 0.01)
-    (keepout (tracks not_allowed) (vias not_allowed) (pads not_allowed ) (copperpour not_allowed) (footprints allowed))
+    (keepout (tracks not_allowed) (vias not_allowed) (pads not_allowed) (copperpour not_allowed) (footprints allowed))
     (fill (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
@@ -61,7 +61,7 @@
   (zone (net 0) (net_name "") (layers *.Cu) (tstamp ac8aaf77-6c1b-490e-a47f-e316a68a6092) (hatch full 0.508)
     (connect_pads (clearance 0))
     (min_thickness 0.01)
-    (keepout (tracks allowed) (vias not_allowed) (pads allowed ) (copperpour allowed) (footprints allowed))
+    (keepout (tracks allowed) (vias not_allowed) (pads allowed) (copperpour allowed) (footprints allowed))
     (fill (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
