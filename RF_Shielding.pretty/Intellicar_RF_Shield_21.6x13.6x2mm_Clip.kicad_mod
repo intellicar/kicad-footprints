@@ -60,7 +60,7 @@
   (pad "1" smd rect (at -5.59 -6.8 90) (size 0.5 0.48) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp f472fe37-a85f-47f7-945c-40e22d402256))
   (pad "1" smd rect (at 5.69 -6.8 90) (size 0.5 0.48) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp f4f51030-6078-4c9e-8657-a5a9df420ce1))
   (pad "1" smd rect (at 10.8 -1.1 180) (size 0.5 0.7) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp fc685992-97dc-443c-a9fe-f1d8ac8daa97))
-  (model "${KISYS3DMOD}/RF_Shielding.3dshapes/Intellicar_21.6x13.6x2mm.stp"
+  (model "${KICAD6_3DMODEL_DIR}/RF_Shielding.3dshapes/Intellicar_21.6x13.6x2mm.stp"
     (offset (xyz 0 0 1.8))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

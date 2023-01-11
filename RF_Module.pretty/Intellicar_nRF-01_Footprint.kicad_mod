@@ -82,7 +82,7 @@
   (pad 18 smd roundrect (at 5.25 10.8 180) (size 1 2.54) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25))
   (pad 19 smd roundrect (at 6.75 10.8 180) (size 1 2.54) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25))
   (pad 20 smd roundrect (at 8.25 10.8 180) (size 1 2.54) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25))
-  (model ${KISYS3DMOD}/RF_Module.3dshapes/Intellicar_aQFN_nRF-01.step
+  (model ${KICAD6_3DMODEL_DIR}/RF_Module.3dshapes/Intellicar_aQFN_nRF-01.step
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

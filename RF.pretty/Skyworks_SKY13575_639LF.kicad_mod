@@ -153,7 +153,7 @@
           (xy 0.36 -0.36)
         ) (width 0) (fill yes))
     ) (tstamp a200ec04-6431-41e1-9a38-5da063fbf3fe))
-  (model "${KISYS3DMOD}/RF.3dshapes/Skyworks_SKY13575_639LF.wrl"
+  (model "${KICAD6_3DMODEL_DIR}/RF.3dshapes/Skyworks_SKY13575_639LF.wrl"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

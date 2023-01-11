@@ -52,7 +52,7 @@
   (pad "7" smd rect (at 2.9 -0.635 270) (size 0.5 1.1) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 42a87220-0685-4c07-93e1-64439d7ce9e0))
   (pad "8" smd rect (at 2.9 -1.905 270) (size 0.5 1.1) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 8919817c-364d-43c3-81c3-be55d427090f))
   (pad "9" smd rect (at 0 0 270) (size 4 4) (layers "F.Cu" "F.Mask") (tstamp cfb3a005-de56-45bb-934a-e7bdc407dd20))
-  (model "${KISYS3DMOD}/Package_DFN_QFN.3dshapes/DFN-8-1EP_6x5mm_Pitch1.27mm.wrl"
+  (model "${KICAD6_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/DFN-8-1EP_6x5mm_Pitch1.27mm.wrl"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

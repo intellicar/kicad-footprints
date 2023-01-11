@@ -2171,7 +2171,7 @@
   (pad 106 smd rect (at 10.8 -12.8) (size 0.5 0.5) (layers F.Cu))
   (pad 105 smd rect (at 10.8 12.8) (size 0.5 0.5) (layers F.Cu))
   (pad 104 smd rect (at -10.8 12.8) (size 0.5 0.5) (layers F.Cu))
-  (model ${KISYS3DMOD}/RF_Module.3dshapes/Quectel_EG9x.step
+  (model ${KICAD6_3DMODEL_DIR}/RF_Module.3dshapes/Quectel_EG9x.step
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))

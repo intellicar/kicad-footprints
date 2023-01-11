@@ -29,7 +29,7 @@
   (fp_line (start 6.25 6.25) (end -6.25 6.25) (layer "F.Fab") (width 0.1) (tstamp b0a7be6c-122f-4927-af14-8d7ea65c552c))
   (pad "1" smd rect (at -5.05 0) (size 3.75 5.2) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp c63bc37e-32b5-4eb0-8572-35bdbff22fbc))
   (pad "2" smd rect (at 5.05 0) (size 3.75 5.2) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 9243153d-9116-4a64-864f-c63a20222fd2))
-  (model "${KISYS3DMOD}/Inductor_SMD.3dshapes/L_Bourns-SRR1280.stp"
+  (model "${KICAD6_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_Bourns-SRR1280.stp"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 90))

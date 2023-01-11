@@ -107,7 +107,7 @@
   (pad 66 smd rect (at 1.8 -4.5) (size 1.1 1.1) (layers F.Cu F.Paste F.Mask))
   (pad 67 smd rect (at 0 -4.5) (size 1.1 1.1) (layers F.Cu F.Paste F.Mask))
   (pad 68 smd rect (at -1.8 -4.5) (size 1.1 1.1) (layers F.Cu F.Paste F.Mask))
-  (model ${KISYS3DMOD}/RF_Module.3dshapes/Quectel_MC60.step
+  (model ${KICAD6_3DMODEL_DIR}/RF_Module.3dshapes/Quectel_MC60.step
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

@@ -35,7 +35,7 @@
   (pad "" smd roundrect (at -0.575 0.81) (size 0.93 1.31) (layers F.Paste) (roundrect_rratio 0.25))
   (pad "" smd roundrect (at 0.575 -0.81) (size 0.93 1.31) (layers F.Paste) (roundrect_rratio 0.25))
   (pad "" smd roundrect (at 0.575 0.81) (size 0.93 1.31) (layers F.Paste) (roundrect_rratio 0.25))
-  (model ${KISYS3DMOD}/Package_DFN_QFN.3dshapes/DFN-8-1EP_4x4mm_P0.8mm_EP2.5x3.6mm.step
+  (model ${KICAD6_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/DFN-8-1EP_4x4mm_P0.8mm_EP2.5x3.6mm.step
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

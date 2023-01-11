@@ -246,7 +246,7 @@
   (pad 74 smd roundrect (at 1.143 -1.143) (size 1.75 1.75) (layers F.Cu F.Paste) (roundrect_rratio 0.25))
   (pad 74 smd roundrect (at 1.143 1.143) (size 1.75 1.75) (layers F.Cu F.Paste) (roundrect_rratio 0.25))
   (pad 74 smd roundrect (at -1.143 1.143) (size 1.75 1.75) (layers F.Cu F.Paste) (roundrect_rratio 0.25))
-  (model ${KISYS3DMOD}/RF_Module.3dshapes/nRF52833-QIAA.step
+  (model ${KICAD6_3DMODEL_DIR}/RF_Module.3dshapes/nRF52833-QIAA.step
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))
