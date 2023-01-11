@@ -1,7 +1,7 @@
 (footprint "Quectel_L89-S90" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
   (tedit 63BD5986)
-  (attr through_hole)
+  (attr smd)
   (fp_text reference "REF**" (at -8.255 -17.145) (layer "F.SilkS")
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp b322397d-2ce4-4cee-b899-08f201d3b360)
