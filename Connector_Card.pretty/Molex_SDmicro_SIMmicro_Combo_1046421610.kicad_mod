@@ -111,7 +111,7 @@
   (pad G6 smd rect (at 6.748 -2.819) (size 1.35 1.84) (layers F.Cu F.Paste F.Mask))
   (pad T1 smd rect (at 6.748 -4.329) (size 1.35 0.58) (layers F.Cu F.Paste F.Mask))
   (pad G5 smd rect (at 6.748 -7.629) (size 1.35 1.8) (layers F.Cu F.Paste F.Mask))
-  (model ${KISYS3DMOD}/Connector_Card.3dshapes/Molex_SDmicro_SIMmicro_Combo_1046421610.stp
+  (model ${KICAD6_3DMODEL_DIR}/Connector_Card.3dshapes/Molex_SDmicro_SIMmicro_Combo_1046421610.stp
     (offset (xyz -22.15 2.3 0.3))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

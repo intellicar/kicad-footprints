@@ -134,7 +134,7 @@
   (pad "T6" smd rect (at 5.85 3.45) (size 1.1 0.6) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 4f113fe2-419d-4432-bc12-891338b4f6cb))
   (pad "T7" smd rect (at 5.85 1.65) (size 1.1 0.6) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 5559d080-97ac-4bf1-a127-9ac338ce7d78))
   (pad "T8" smd rect (at 5.85 -4.36) (size 1.1 0.6) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 63d3f7d8-f5be-417c-8de5-f64814b36821))
-  (model "${KISYS3DMOD}/Connector_Card.3dshapes/Molex_SDmicro_SIMnano_Combo_1042391430.step"
+  (model "${KICAD6_3DMODEL_DIR}/Connector_Card.3dshapes/Molex_SDmicro_SIMnano_Combo_1042391430.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))

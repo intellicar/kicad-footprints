@@ -148,7 +148,7 @@
       )
     )
   )
-  (model "${KISYS3DMOD}/Connector_Card.3dshapes/Molex_SDmicro_SIMnano_Combo_1042391430.step"
+  (model "${KICAD6_3DMODEL_DIR}/Connector_Card.3dshapes/Molex_SDmicro_SIMnano_Combo_1042391430.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))

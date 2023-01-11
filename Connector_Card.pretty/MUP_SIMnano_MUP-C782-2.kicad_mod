@@ -135,7 +135,7 @@
       )
     )
   )
-  (model "${KISYS3DMOD}/Connector_Card.3dshapes/GCT_SIMnano_SIM8055-6-1-14-00-A.stp"
+  (model "${KICAD6_3DMODEL_DIR}/Connector_Card.3dshapes/GCT_SIMnano_SIM8055-6-1-14-00-A.stp"
     (offset (xyz 0 -6.25 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 180))

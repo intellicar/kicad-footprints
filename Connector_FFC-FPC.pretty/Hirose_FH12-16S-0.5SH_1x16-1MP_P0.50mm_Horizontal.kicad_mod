@@ -62,7 +62,7 @@
   (pad "16" smd rect (at 3.75 -1.85) (size 0.3 1.3) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 668db5c6-ec8d-425c-b891-ce5bcc63a68e))
   (pad "MP" smd rect (at 5.65 1.4) (size 1.8 2.2) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp b56ede79-6327-417e-9e74-b8dc86daac56))
   (pad "MP" smd rect (at -5.65 1.4) (size 1.8 2.2) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp cd08b473-40b1-4976-af56-6827e93153d8))
-  (model "${KISYS3DMOD}/Connector_FFC-FPC.3dshapes/Hirose_FH12-16S-0.5SH_1x16-1MP_P0.50mm_Horizontal.step"
+  (model "${KICAD6_3DMODEL_DIR}/Connector_FFC-FPC.3dshapes/Hirose_FH12-16S-0.5SH_1x16-1MP_P0.50mm_Horizontal.step"
     (offset (xyz 17.94 -10.6 -178))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 90 180))
