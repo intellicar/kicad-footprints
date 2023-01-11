@@ -50,7 +50,7 @@
   (pad R thru_hole circle (at 6.35 0) (size 3 3) (drill 1.5) (layers *.Cu *.Mask))
   (pad T thru_hole circle (at 0 0) (size 3 3) (drill 1.5) (layers *.Cu *.Mask))
   (pad S thru_hole rect (at 12.7 0) (size 3 3) (drill 1.5) (layers *.Cu *.Mask))
-  (model ${KISYS3DMOD}/Connector_Audio.3dshapes/Jack_3.5mm_Neutrik_NMJ6HCD2_Horizontal.wrl
+  (model ${KICAD6_3DMODEL_DIR}/Connector_Audio.3dshapes/Jack_3.5mm_Neutrik_NMJ6HCD2_Horizontal.wrl
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

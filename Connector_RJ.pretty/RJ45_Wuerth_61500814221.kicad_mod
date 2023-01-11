@@ -33,7 +33,7 @@
   (pad SH thru_hole circle (at 8.0055 12.19) (size 2.4 2.4) (drill 1.6) (layers *.Cu *.Mask))
   (pad None np_thru_hole circle (at -5.715 7.62) (size 3.25 3.25) (drill 3.25) (layers *.Cu *.Mask))
   (pad None np_thru_hole circle (at 5.715 7.62) (size 3.25 3.25) (drill 3.25) (layers *.Cu *.Mask))
-  (model ${KISYS3DMOD}/Connector_RJ.3dshapes/RJ45_Wuerth_61500814221.step
+  (model ${KICAD6_3DMODEL_DIR}/Connector_RJ.3dshapes/RJ45_Wuerth_61500814221.step
     (offset (xyz 0 0 6.5))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 90))

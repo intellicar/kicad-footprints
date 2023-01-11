@@ -26,7 +26,7 @@
   )
   (pad 1 thru_hole circle (at -10 0) (size 3 3) (drill 1.3) (layers *.Cu *.Mask))
   (pad 2 thru_hole circle (at 10 0) (size 3 3) (drill 1.3) (layers *.Cu *.Mask))
-  (model ${KISYS3DMOD}/Fuse.3dshapes/Glass_Cartidge_Fuse-5x15mm_leaded.IGS
+  (model ${KICAD6_3DMODEL_DIR}/Fuse.3dshapes/Glass_Cartidge_Fuse-5x15mm_leaded.IGS
     (offset (xyz 0 0 2.5))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))

@@ -66,7 +66,7 @@
   (pad 6 smd rect (at -1.5 2.315) (size 1.27 2.92) (layers F.Cu F.Paste F.Mask))
   (pad 7 smd rect (at 1.5 2.315) (size 1.27 2.92) (layers F.Cu F.Paste F.Mask))
   (pad 8 smd rect (at 4.5 2.315) (size 1.27 2.92) (layers F.Cu F.Paste F.Mask))
-  (model ${KISYS3DMOD}/Connector_Molex.3dshapes/Molex_Micro-Fit_3.0_43045-0810_2x04-1MP_P3.00mm_Horizontal.step
+  (model ${KICAD6_3DMODEL_DIR}/Connector_Molex.3dshapes/Molex_Micro-Fit_3.0_43045-0810_2x04-1MP_P3.00mm_Horizontal.step
     (offset (xyz 0 7.5 4))
     (scale (xyz 1 1 1))
     (rotate (xyz 90 180 0))

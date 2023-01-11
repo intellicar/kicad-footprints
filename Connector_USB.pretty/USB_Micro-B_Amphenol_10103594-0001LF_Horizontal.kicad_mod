@@ -56,7 +56,7 @@
   (pad "6" thru_hole oval (at 2.395 -1.885 90) (size 1.5 1.1) (drill oval 1.05 0.65) (layers *.Cu *.Mask) (tstamp cb82882f-ca89-4f1c-8ad4-40657bf89fa5))
   (pad "6" smd rect (at -2.755 0.185) (size 1.35 2) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp d5a66b13-d2e2-4043-b1b8-e1d61ca7bbb2))
   (pad "6" smd rect (at 2.975 -0.565) (size 1.825 0.7) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp e68de96a-6009-4504-b904-c61aa0e0520a))
-  (model "${KISYS3DMOD}/Connector_USB.3dshapes/USB_Micro-B_Molex_47346-0001.step"
+  (model "${KICAD6_3DMODEL_DIR}/Connector_USB.3dshapes/USB_Micro-B_Molex_47346-0001.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

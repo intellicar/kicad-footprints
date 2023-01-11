@@ -95,7 +95,7 @@
   (pad 11 thru_hole circle (at 23.875 4.8) (size 2.3 2.3) (drill 1.1) (layers *.Cu *.Mask))
   (pad 14 thru_hole circle (at 28.8 0) (size 2.3 2.3) (drill 1.1) (layers *.Cu *.Mask))
   (pad 13 thru_hole circle (at 28.675 4.8) (size 2.3 2.3) (drill 1.1) (layers *.Cu *.Mask))
-  (model ${KISYS3DMOD}/Connector_Wire.3dshapes/SolderWire-0.5sqmm_1x05_P4.8mm_D0.9mm_OD2.3mm.wrl
+  (model ${KICAD6_3DMODEL_DIR}/Connector_Wire.3dshapes/SolderWire-0.5sqmm_1x05_P4.8mm_D0.9mm_OD2.3mm.wrl
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

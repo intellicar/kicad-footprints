@@ -131,7 +131,7 @@
   (pad 2 thru_hole circle (at 0 12.7) (size 2 2) (drill 1.02) (layers *.Cu *.Mask))
   (pad "" np_thru_hole circle (at 23.7236 23.495) (size 3.5 3.5) (drill 3.5) (layers *.Cu *.Mask))
   (pad "" np_thru_hole circle (at 23.7236 0) (size 3.5 3.5) (drill 3.5) (layers *.Cu *.Mask))
-  (model ${KISYS3DMOD}/Battery.3dshapes/BatteryHolder_Keystone_2479_3xAAA.wrl
+  (model ${KICAD6_3DMODEL_DIR}/Battery.3dshapes/BatteryHolder_Keystone_2479_3xAAA.wrl
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

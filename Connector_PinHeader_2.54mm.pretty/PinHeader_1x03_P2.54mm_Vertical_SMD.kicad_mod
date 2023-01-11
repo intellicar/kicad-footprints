@@ -57,7 +57,7 @@
   (pad "2" smd rect (at 1.655 0) (size 2.51 1) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp e3cd2cce-8f4a-4cfe-9429-3267b17a5ff8))
   (pad "3" smd rect (at -1.655 2.54) (size 2.51 1) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 1524c995-3ff6-445f-b530-fbe71f2e7a77))
   (pad "3" smd rect (at 1.651 2.54) (size 2.51 1) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp ff08c378-c882-4a2d-8336-26f49ffccb48))
-  (model "${KISYS3DMOD}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x03_P2.54mm_Vertical_SMD_Pin1Left.wrl"
+  (model "${KICAD6_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x03_P2.54mm_Vertical_SMD_Pin1Left.wrl"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

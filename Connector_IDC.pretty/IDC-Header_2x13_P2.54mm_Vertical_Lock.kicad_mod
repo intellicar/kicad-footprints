@@ -62,7 +62,7 @@
   (pad 25 thru_hole circle (at 0 30.48 270) (size 1.52 1.52) (drill 0.91) (layers *.Cu *.Mask))
   (pad 26 thru_hole circle (at 2.54 30.48 270) (size 1.52 1.52) (drill 0.91) (layers *.Cu *.Mask))
   (pad "" thru_hole circle (at 1.02 39.37 270) (size 5.46 5.46) (drill 2.69) (layers *.Cu *.Mask))
-  (model ${KISYS3DMOD}/Connector_IDC.3dshapes/IDC-Header_2x13_P2.54mm_Vertical_Lock.wrl
+  (model ${KICAD6_3DMODEL_DIR}/Connector_IDC.3dshapes/IDC-Header_2x13_P2.54mm_Vertical_Lock.wrl
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
