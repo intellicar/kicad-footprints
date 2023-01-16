@@ -1,8 +1,8 @@
-(footprint "Sensirion_DFN-4_1.5x1.5mm_P0.8mm_SHT4x_NoCentralPad" (version 20211014) (generator pcbnew)
+(footprint "Sensirion_DFN-4_1.5x1.5mm_P0.8mm_NoCentralPad" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
   (tedit 638BA7DA)
   (descr "Sensirion, SHT40, SHT41, SHT45, DFN, 4 Pin (https://sensirion.com/media/documents/33FD6951/624C4357/Datasheet_SHT4x.pdf)")
-  (tags "DFN NoLead")
+  (tags "SHT4x")
   (attr smd)
   (fp_text reference "REF**" (at 0 -1.7) (layer "F.SilkS")
     (effects (font (size 1 1) (thickness 0.15)))
@@ -61,9 +61,9 @@
       )
     )
   )
-  (model "${KICAD6_3DMODEL_DIR}/Sensor_Humidity.3dshapes/Sensirion_DFN-4_1.5x1.5mm_P0.8mm_SHT4x_NoCentralPad.wrl"
+  (model "${KICAD6_3DMODEL_DIR}/Sensor_Humidity.3dshapes/Sensirion_DFN-4_1.5x1.5mm_P0.8mm.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
+    (rotate (xyz -90 0 0))
   )
 )
