@@ -1,0 +1,56 @@
+(footprint "BatteryHolder_CR2477_TH" (version 20211014) (generator pcbnew)
+  (layer "F.Cu")
+  (tedit 63774684)
+  (tags "CR2477 TH")
+  (attr through_hole)
+  (fp_text reference "REF**" (at 0.05 -4.45) (layer "F.SilkS")
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp a039b477-7336-4008-940c-c1234c4c2190)
+  )
+  (fp_text value "BatteryHolder_CR2477" (at 0.05 6.4) (layer "F.Fab")
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 1262ec6c-eef8-4fae-89d8-222ec83df015)
+  )
+  (fp_line (start 12.8 -5.4) (end 12.8 7.2) (layer "F.SilkS") (width 0.1) (tstamp 0338d4b7-c295-43f4-9ec1-3ec02d2e0158))
+  (fp_line (start -7.8 -10.4) (end -7.483315 -10.4) (layer "F.SilkS") (width 0.1) (tstamp 4a4e899d-c0f5-483a-901b-28b19a0bde63))
+  (fp_line (start 4.139746 12.2) (end -4.139746 12.2) (layer "F.SilkS") (width 0.1) (tstamp 6b154aaa-a26c-4c0e-ad03-5624ce3bfe3c))
+  (fp_line (start -12.8 7.2) (end -12.8 -5.4) (layer "F.SilkS") (width 0.1) (tstamp 8961dfd7-ecac-452b-af29-e66e4edd4f44))
+  (fp_line (start -4.139746 12.2) (end -12.8 7.2) (layer "F.SilkS") (width 0.1) (tstamp 8a36ec01-3dde-4300-a19f-404dad8a2158))
+  (fp_line (start 12.8 7.2) (end 4.139746 12.2) (layer "F.SilkS") (width 0.1) (tstamp 97cd16bf-b096-4d45-9362-739396b9f951))
+  (fp_line (start 7.483315 -10.4) (end 7.8 -10.4) (layer "F.SilkS") (width 0.1) (tstamp d961487f-8be7-4079-a193-ae38edec8b0e))
+  (fp_arc (start 3.325918 -8.177778) (mid 5.126292 -9.809586) (end 7.483315 -10.4) (layer "F.SilkS") (width 0.1) (tstamp 0ba89ca9-5136-4a2c-9f84-f343c0ef849c))
+  (fp_arc (start -7.483315 -10.4) (mid -5.126292 -9.809586) (end -3.325918 -8.177778) (layer "F.SilkS") (width 0.1) (tstamp 8fb9f710-827b-4a2d-8013-d44623f53322))
+  (fp_arc (start 3.325918 -8.177778) (mid 0 -6.4) (end -3.325918 -8.177778) (layer "F.SilkS") (width 0.1) (tstamp b88eea35-5702-4df6-b01a-3611c110891a))
+  (fp_arc (start 7.8 -10.4) (mid 11.335534 -8.935534) (end 12.8 -5.4) (layer "F.SilkS") (width 0.1) (tstamp cc564709-8ec1-44dc-9ff8-00fefdb45a67))
+  (fp_arc (start -12.8 -5.4) (mid -11.335534 -8.935534) (end -7.8 -10.4) (layer "F.SilkS") (width 0.1) (tstamp fa8a4b2d-0900-442a-81eb-78d6ccf92f5c))
+  (fp_circle (center 0 0) (end 12.2 0) (layer "Dwgs.User") (width 0.1) (fill none) (tstamp be334b09-67d4-4f67-86f9-11fcce826cba))
+  (pad "1" thru_hole oval (at -12.65 0.95 90) (size 2.5 1.5) (drill oval 2 1) (layers *.Cu *.Mask) (tstamp a19d1e4f-27c6-4289-b6de-1f692c56112b))
+  (pad "1" thru_hole oval (at 12.75 0.95 90) (size 2.5 1.5) (drill oval 2 1) (layers *.Cu *.Mask) (tstamp ae8b3385-332f-4118-b884-d952002d3409))
+  (pad "2" smd circle (at 0 0) (size 6 6) (layers "F.Cu" "F.Mask") (tstamp f532f23b-ff29-4ec7-86a5-b6506fd4b455))
+  (group "" (id e3889550-51ea-40d3-8322-57ad18c27503)
+    (members
+      0338d4b7-c295-43f4-9ec1-3ec02d2e0158
+      0ba89ca9-5136-4a2c-9f84-f343c0ef849c
+      1262ec6c-eef8-4fae-89d8-222ec83df015
+      4a4e899d-c0f5-483a-901b-28b19a0bde63
+      6b154aaa-a26c-4c0e-ad03-5624ce3bfe3c
+      8961dfd7-ecac-452b-af29-e66e4edd4f44
+      8a36ec01-3dde-4300-a19f-404dad8a2158
+      8fb9f710-827b-4a2d-8013-d44623f53322
+      97cd16bf-b096-4d45-9362-739396b9f951
+      a039b477-7336-4008-940c-c1234c4c2190
+      a19d1e4f-27c6-4289-b6de-1f692c56112b
+      ae8b3385-332f-4118-b884-d952002d3409
+      b88eea35-5702-4df6-b01a-3611c110891a
+      be334b09-67d4-4f67-86f9-11fcce826cba
+      cc564709-8ec1-44dc-9ff8-00fefdb45a67
+      d961487f-8be7-4079-a193-ae38edec8b0e
+      fa8a4b2d-0900-442a-81eb-78d6ccf92f5c
+    )
+  )
+  (model "${KICAD6_3DMODEL_DIR}/Battery.3dshapes/BatteryHolder_CR2477_TH.step"
+    (offset (xyz 0 -1 8))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 180 0 180))
+  )
+)
