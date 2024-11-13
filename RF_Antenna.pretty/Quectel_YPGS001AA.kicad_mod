@@ -1,0 +1,284 @@
+(footprint "Quectel_YPGS001AA"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "RFID Transponder Coil")
+	(tags "antenna rfid coilcraft")
+	(property "Reference" "REF**"
+		(at -2 -3.8 0)
+		(layer "F.SilkS")
+		(uuid "846775cf-616d-4d73-ad5f-e4e546f3a9d9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Quectel_YPGS001AA"
+		(at 0 4 0)
+		(layer "F.Fab")
+		(uuid "d4d445ea-34b6-4bf2-b63d-9bbaa5533740")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 1.7 2.2 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "74107edb-74b0-47e6-b503-d950ea500f29")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 1.7 2.2 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "81f66547-b8e5-4f4d-ba14-7efab21e2d97")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 1.7 2.2 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a838ef91-ee1e-48ea-8cb3-1bbb176d6870")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -3.7 -3.1)
+		(end -3.7 3.1)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1e97c8af-e603-42c6-afe3-cde4d40ae85f")
+	)
+	(fp_line
+		(start -3.7 3.1)
+		(end 3.7 3.1)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "064de56d-5de6-45a4-9586-b2a7e39e20b4")
+	)
+	(fp_line
+		(start 3.7 -3.1)
+		(end -3.7 -3.1)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e16b5b78-b3e4-4f2b-b7d7-af555b2d0e35")
+	)
+	(fp_line
+		(start 3.7 3.1)
+		(end 3.7 -3.1)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "fdec5e25-1cac-4efa-8ee1-2dbd458c9bb9")
+	)
+	(fp_circle
+		(center -2.8 -1.1)
+		(end -2.5 -1.1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "e96f2d6f-18f3-4e5e-b28d-81c3ab0076c9")
+	)
+	(fp_line
+		(start -3.5 -2.9)
+		(end -3.5 2.9)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "8d2251ba-2122-48a1-aabc-60fc40b41757")
+	)
+	(fp_line
+		(start -3.5 2.9)
+		(end 3.5 2.9)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "b4427492-519e-442a-9c5c-f99b6007da4b")
+	)
+	(fp_line
+		(start 3.5 -2.9)
+		(end -3.5 -2.9)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "1940999c-fef6-4b58-9634-1254de8db2a2")
+	)
+	(fp_line
+		(start 3.5 2.9)
+		(end 3.5 -2.9)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "85caf7f9-8427-4f43-b534-c8c1f6024917")
+	)
+	(fp_line
+		(start -3.7 -3.1)
+		(end 3.7 -3.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f0ddc710-1549-4855-8c25-5d41d21831de")
+	)
+	(fp_line
+		(start -3.7 3.1)
+		(end -3.7 -3.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "fb9214b6-9e5b-4ed6-be2a-c787bd8e296c")
+	)
+	(fp_line
+		(start 3.7 -3.1)
+		(end 3.7 3.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "4e4fb6ac-719b-453d-a9bd-f09da57ca8fa")
+	)
+	(fp_line
+		(start 3.7 3.1)
+		(end -3.7 3.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "72afef5d-fb7c-4720-aba1-6971640089f8")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -4 0)
+		(layer "F.Fab")
+		(uuid "0c695b54-34b0-415e-ad94-cdfde84f86d7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" smd rect
+		(at -2.8 2.2)
+		(size 1 1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "6d04c556-96c4-4ae1-bf77-8d6c7f108c7d")
+	)
+	(pad "" smd rect
+		(at -0.8 -2.2)
+		(size 1 1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "269ff194-4cb9-4457-a4e5-43acd2f5884f")
+	)
+	(pad "1" smd rect
+		(at -0.8 2.2)
+		(size 1 1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "b1ec3c6a-0aab-47e3-9e70-cbedfca77f09")
+	)
+	(pad "2" smd rect
+		(at -2.8 -2.2)
+		(size 1 1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "e0382334-bf8f-4e90-831f-086371eb6d44")
+	)
+	(pad "2" smd rect
+		(at 2.8 -2.2)
+		(size 1 1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "f68674bd-9df3-49ad-8af5-239a9c29f624")
+	)
+	(pad "2" smd rect
+		(at 2.8 2.2)
+		(size 1 1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "2fe95cf2-c67f-45eb-8ef5-35a1edd8887e")
+	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layers "*.Cu" "F.SilkS")
+		(uuid "e7ef7d6b-1ac3-4f00-8053-360654f0b3e4")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(filled_areas_thickness no)
+		(keepout
+			(tracks allowed)
+			(vias allowed)
+			(pads allowed)
+			(copperpour not_allowed)
+			(footprints allowed)
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(xy -3.5 -2.9) (xy 3.5 -2.9) (xy 3.5 2.9) (xy -3.5 2.9)
+			)
+		)
+	)
+	(model "${KICAD8_3DMODEL_DIR}/RF_Antenna.3dshapes/Quectel_YPGS001AA.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)

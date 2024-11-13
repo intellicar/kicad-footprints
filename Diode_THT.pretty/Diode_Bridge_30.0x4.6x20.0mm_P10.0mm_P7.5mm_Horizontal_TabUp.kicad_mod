@@ -1,0 +1,193 @@
+(footprint "Diode_Bridge_30.0x4.6x20.0mm_P10.0mm_P7.5mm_Horizontal_TabUp"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Diotec 32x5.6x17mm rectifier package, 7.5mm/10mm pitch, see https://diotec.com/tl_files/diotec/files/pdf/datasheets/b40c3700.pdf")
+	(tags "Diotec rectifier diode bridge")
+	(property "Reference" "REF**"
+		(at 12.74 -5.464 180)
+		(layer "F.SilkS")
+		(uuid "9a0d8db5-8afa-458d-82fd-e9883f893311")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Diode_Bridge_30.0x4.6x20.0mm_P10.0mm_P7.5mm_Horizontal_TabUp"
+		(at 12.6 4 180)
+		(layer "F.Fab")
+		(uuid "e284d9a8-7592-4d60-bc08-9b917e7f4c91")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 25 0.5 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "695e38f9-a161-472e-a839-229b1ce684d9")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 25 0.5 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1462314b-d65a-47bf-bfd2-1e5e615d9ee3")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 25 0.5 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "dedab3fe-0360-47ec-b969-58d1ffbd294b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -2.8 -27.586)
+		(end 28 2)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "6d463073-e34b-4f09-9d94-c25bd7c11d46")
+	)
+	(fp_rect
+		(start -2.87 -27.676)
+		(end 28.06 2.1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "279eb80c-c47e-4a8d-9861-6cd1deff73ab")
+	)
+	(fp_line
+		(start -2.64 -24.724)
+		(end -0.11002 -27.24402)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "16a3b95a-1b3c-4526-bfca-8551fe500c7c")
+	)
+	(fp_line
+		(start -2.64 -6.604)
+		(end -2.64 -24.724)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "47dee4a1-fdc9-4f32-886d-0a1f80f5ae22")
+	)
+	(fp_line
+		(start -0.11 -27.244)
+		(end 27.86 -27.244)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "5b01c811-1bae-4544-8ca9-6bebd406918e")
+	)
+	(fp_line
+		(start 27.86 -6.604)
+		(end -2.64 -6.604)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "6d343da2-d32c-431b-85e2-ca5c76d23563")
+	)
+	(fp_line
+		(start 27.86 -6.604)
+		(end 27.86 -27.244)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "b0350e8e-d5fc-44d6-9496-62432158b871")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 12.4 0.5 0)
+		(layer "F.Fab")
+		(uuid "69cce5f6-8e86-45fe-a5b4-b94653a1e8c0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at 0 0 180)
+		(size 3 3)
+		(drill 2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "1fc38d45-f673-4999-8b14-85db44cfc1ad")
+	)
+	(pad "2" thru_hole circle
+		(at 10 0 180)
+		(size 3 3)
+		(drill 2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "92d3dfa2-d89b-411b-85e1-5a2655c486dd")
+	)
+	(pad "3" thru_hole circle
+		(at 17.5 0 180)
+		(size 3 3)
+		(drill 2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "a61f5736-b4d9-458f-ad6a-0e9f4641550b")
+	)
+	(pad "4" thru_hole circle
+		(at 25 0 180)
+		(size 3 3)
+		(drill 2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "6016744c-154c-475b-a5d1-d913e015d604")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Diode_THT.3dshapes/Diode_Bridge_.step"
+		(offset
+			(xyz 12.6 17.25 -2.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

@@ -1,0 +1,296 @@
+(footprint "WCS1600"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "https://www.winson.com.tw/uploads/images/WCS1600.pdf")
+	(tags "Miniature Wired Open-Loop Current Sensor")
+	(property "Reference" "REF**"
+		(at 0 -3.4 0)
+		(layer "F.SilkS")
+		(uuid "7de2d125-a088-4ba3-a2fd-20b47d97cf70")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "WCS1600"
+		(at 0 3.4 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ee784d90-d635-4257-bf5f-fcfb2baad2a6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f65d1b65-bd99-44b1-9b04-bdac22de2e33")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "dd30d88f-99e0-415b-91c7-08da8b6e69bb")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6558bc8a-1f31-49df-af9e-1770aeb6ffa8")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -9.9 -4.2)
+		(end -9.9 4.2)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d81f6322-b210-4ef8-a285-a682a7794447")
+	)
+	(fp_line
+		(start -9.9 -4.2)
+		(end 9.9 -4.2)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3ada30ef-ca9d-4ed7-8511-5fe13427d060")
+	)
+	(fp_line
+		(start -9.9 4.2)
+		(end 9.9 4.2)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d6c93f01-3b31-4196-9268-e92e088fbbd0")
+	)
+	(fp_line
+		(start -1.3 -1.45)
+		(end -1.3 -2.45)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "27d423d5-5216-418a-9c1f-9ba67459e9f6")
+	)
+	(fp_line
+		(start -0.8 -1.95)
+		(end -1.3 -2.45)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a76734b0-6f6f-4d6b-a803-b65549fdcfde")
+	)
+	(fp_line
+		(start -0.8 -1.95)
+		(end -1.3 -1.45)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "35a2bd97-b07c-4fd0-ae43-75442044ce76")
+	)
+	(fp_line
+		(start 9.9 -4.2)
+		(end 9.9 4.2)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e522459e-c437-455f-9fff-14ae72ae97a2")
+	)
+	(fp_line
+		(start -10 -4.3)
+		(end -10 4.3)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "c2452c4b-c2dd-434c-850f-5b2b5a9b7df6")
+	)
+	(fp_line
+		(start 10 -4.3)
+		(end -10 -4.3)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "a1bd537b-61c1-4770-bc3d-cd66a1d88fba")
+	)
+	(fp_line
+		(start 10 -4.3)
+		(end 10 4.3)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "80bcc999-25f4-49f8-b90a-021c11841c39")
+	)
+	(fp_line
+		(start 10 4.3)
+		(end -10 4.3)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "cc35560c-0176-4856-a317-8b3f5114a4c3")
+	)
+	(fp_line
+		(start -9.7 -4)
+		(end -9.7 4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "9dd38b5e-4014-400c-96ba-2fae1b27d426")
+	)
+	(fp_line
+		(start 9.7 -4)
+		(end -9.7 -4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "81617cd4-4d40-44c8-8c7d-d2c6d9bd3c01")
+	)
+	(fp_line
+		(start 9.7 -4)
+		(end 9.7 4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "eec8a691-2961-4c91-9876-189b496bfebf")
+	)
+	(fp_line
+		(start 9.7 4)
+		(end -9.7 4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "af913d67-f288-4461-949d-4a628595ff3b")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2 0)
+		(layer "F.Fab")
+		(uuid "432f60ab-bbdb-4f8a-9019-0e9210784652")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" thru_hole circle
+		(at -6.5 0)
+		(size 2.5 2.5)
+		(drill 1.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "14c84f05-85f1-4e83-8f62-86e673e45554")
+	)
+	(pad "" thru_hole circle
+		(at 6.5 0)
+		(size 2.5 2.5)
+		(drill 1.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "5ebf1a9d-6464-4155-afbe-a5c08eeb2eb4")
+	)
+	(pad "1" thru_hole rect
+		(at 0 -1.97)
+		(size 1.3 1.05)
+		(drill 0.6)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "1a16533d-f4b6-4f01-ba05-29bce03b69cc")
+	)
+	(pad "2" thru_hole oval
+		(at 0 -0.7)
+		(size 1.3 1.05)
+		(drill 0.6)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "d3a42a12-3af9-4960-9a16-14c9a308bcdd")
+	)
+	(pad "3" thru_hole oval
+		(at 0 0.57)
+		(size 1.3 1.05)
+		(drill 0.6)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "cf3c3468-13fd-4c41-8647-9ba28b5e2280")
+	)
+	(pad "4" thru_hole oval
+		(at 0 11.6)
+		(size 10 10)
+		(drill 8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "67d024ae-3b33-4bd1-9dc4-f75cb46af491")
+	)
+	(pad "5" thru_hole oval
+		(at 0 -11)
+		(size 10 10)
+		(drill 8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "18eef6e9-6036-4f19-96f4-c4a5f5ce99bf")
+	)
+	(model "${KICAD6_3DMODEL_DIR}/Sensor_Current.3dshapes/Honeywell_CSLW.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

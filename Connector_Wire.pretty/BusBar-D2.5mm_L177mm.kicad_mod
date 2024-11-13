@@ -1,0 +1,145 @@
+(footprint "BusBar-D2.5mm_L177mm"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Wire solder connection")
+	(tags "connector")
+	(property "Reference" "REF**"
+		(at 97.39 -0.03 0)
+		(layer "F.SilkS")
+		(uuid "f2f7dde4-b535-4136-a7c5-5eaf50250300")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "BusBar-D2.5mm_L177mm"
+		(at 16.49 1.96 0)
+		(layer "F.Fab")
+		(uuid "cc71d5a2-d715-43d5-b0d6-87062e3e8fc3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9fa74bd5-b9a6-4db6-986c-334995630cb8")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "702577db-d531-41e2-91c4-7210a63cbaa3")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d983ec4e-2f2d-4485-9650-324b13a9b24a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr exclude_from_pos_files exclude_from_bom)
+	(fp_line
+		(start -3.5 -3.5)
+		(end -3.5 3.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "e9031372-4d0a-4e79-b217-39e0b5aa308d")
+	)
+	(fp_line
+		(start -3.5 -3.5)
+		(end 180.53 -3.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "4a7cc56e-2e00-41a7-b7f6-168abffeb68a")
+	)
+	(fp_line
+		(start 180.53 3.5)
+		(end -3.5 3.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "77f3c8df-3af5-4f0c-bb41-42a0d75fd765")
+	)
+	(fp_line
+		(start 180.53 3.5)
+		(end 180.53 -3.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "a7c87a60-13f5-4aae-a528-7a12dcc8fb3f")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 12.37 -1.87 0)
+		(layer "F.Fab")
+		(uuid "c20943b3-00df-4fb9-bfb9-6a1855e325cd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 6 6)
+		(drill 2.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "26cc7a21-eb19-4e66-9fb1-c47aa35cb0b2")
+	)
+	(pad "2" thru_hole circle
+		(at 177 0)
+		(size 6 6)
+		(drill 2.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "39d302ed-99c1-4cba-aec5-02dcea2b187b")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Connector_Wire.3dshapes/BusBar-D2.5mm_L177mm.step"
+		(offset
+			(xyz 0 0 2)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

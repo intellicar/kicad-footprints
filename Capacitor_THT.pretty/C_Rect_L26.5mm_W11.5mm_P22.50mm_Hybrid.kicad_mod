@@ -1,0 +1,253 @@
+(footprint "C_Rect_L26.5mm_W11.5mm_P22.50mm_Hybrid"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "C, Rect series, Radial, pin pitch=22.50mm, , length*width=26.5*11.5mm^2, Capacitor, http://www.wima.com/EN/WIMA_MKS_4.pdf")
+	(tags "C Rect series Radial pin pitch 22.50mm  length 26.5mm width 11.5mm Capacitor")
+	(property "Reference" "REF**"
+		(at 11.25 -7 0)
+		(layer "F.SilkS")
+		(uuid "165725c0-e24b-4c32-9166-5052314a2d57")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "C_Rect_L26.5mm_W11.5mm_P22.50-15.00mm_Hybrid"
+		(at 11.25 7 0)
+		(layer "F.Fab")
+		(uuid "64320354-0d48-4079-a434-a36b6c2ddf3f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "dac46b89-f98a-4e44-8fe4-5d4ece3fa857")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "07aedbbb-5eb2-4911-a99d-dad6a821fdd2")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a9ad73d8-0a27-41cb-95fa-26652674bb4b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -2.12 -5.87)
+		(end -2.12 5.87)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2d8caa39-6dc9-4d6b-944c-1461acf78483")
+	)
+	(fp_line
+		(start -2.12 -5.87)
+		(end 24.62 -5.87)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5e5efa2b-817b-4c59-ba2c-6a9d3b93027a")
+	)
+	(fp_line
+		(start -2.12 5.87)
+		(end 24.62 5.87)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8854bca0-6bbf-4a04-bcc3-668f36159959")
+	)
+	(fp_line
+		(start 24.62 -5.87)
+		(end 24.62 5.87)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "aa443cb7-ff48-4a6b-bda1-f27418f83f47")
+	)
+	(fp_line
+		(start -2.25 -6)
+		(end -2.25 6)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "02803f5c-8130-4357-903d-74a634ab96b9")
+	)
+	(fp_line
+		(start -2.25 6)
+		(end 24.75 6)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "884aa89a-61ba-48aa-bf12-e93ec1062fe7")
+	)
+	(fp_line
+		(start 24.75 -6)
+		(end -2.25 -6)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "b9be7149-cfac-4e4f-970c-fdc9e2364589")
+	)
+	(fp_line
+		(start 24.75 6)
+		(end 24.75 -6)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "b57d2158-6278-4905-93f4-f7ca74d37885")
+	)
+	(fp_line
+		(start -2 -5.75)
+		(end -2 5.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "7a8e4bf0-21d9-4221-a7bd-53f439e5a898")
+	)
+	(fp_line
+		(start -2 5.75)
+		(end 24.5 5.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b927ec42-473a-407f-a551-b1cf157fd303")
+	)
+	(fp_line
+		(start 24.5 -5.75)
+		(end -2 -5.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "918d56be-0b46-448f-a2bd-cda39d5568ec")
+	)
+	(fp_line
+		(start 24.5 5.75)
+		(end 24.5 -5.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b46d5719-e7e3-4764-ac83-75a1f79e0c17")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 11.6 0 0)
+		(layer "F.Fab")
+		(uuid "df1b03fd-81ae-4768-a30c-d86793e54f2f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 2.4 2.4)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "24fbc698-e755-4d30-b82e-51f75bcb34a3")
+	)
+	(pad "1" thru_hole circle
+		(at 3.7 0 180)
+		(size 2.4 2.4)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "e2f4bbec-69bf-465f-9258-1a33dae511a9")
+	)
+	(pad "2" thru_hole circle
+		(at 18.7 0 180)
+		(size 2.4 2.4)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "7db6c71f-b33f-4fad-8db1-2fb42e26893d")
+	)
+	(pad "2" thru_hole circle
+		(at 22.5 0)
+		(size 2.4 2.4)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "e43827ac-4308-4286-be18-f527bde32e17")
+	)
+	(model "${KICAD6_3DMODEL_DIR}/Capacitor_THT.3dshapes/C_Rect_L26.5mm_W11.5mm_P22.50mm_MKS4.wrl"
+		(hide yes)
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+	(model "${KICAD6_3DMODEL_DIR}/Capacitor_THT.3dshapes/C_Rect_L18mm_W9mm_P15.00mm.step"
+		(offset
+			(xyz 2.5 -4.5 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 90 90 0)
+		)
+	)
+)

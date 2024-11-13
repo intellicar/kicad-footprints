@@ -1,0 +1,109 @@
+(footprint "DG135T-10.16-03P" (version 20221018) (generator pcbnew)
+  (layer "F.Cu")
+  (property "Sheetfile" "AC_Input_Circuit.kicad_sch")
+  (property "Sheetname" "AC_Input_Circuit")
+  (property "ki_description" "Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)")
+  (property "ki_keywords" "connector")
+  (attr through_hole)
+  (fp_text reference "J1" (at 10.16 8.001 unlocked) (layer "F.SilkS")
+      (effects (font (size 0.5 0.5) (thickness 0.1)))
+    (tstamp 567955c7-e79c-4f9d-a498-4013ec1fd642)
+  )
+  (fp_text value "DG135T-10.16-03P" (at 10.16 13.589 unlocked) (layer "F.Fab")
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 1bcb9bc6-bfbe-4f16-a8e4-45b182c76071)
+  )
+  (fp_text user "${REFERENCE}" (at 10.16 -11.43 unlocked) (layer "F.Fab")
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 962fa012-6a51-402c-82df-a991a4ac0aec)
+  )
+  (fp_line (start -16.002 -7.3) (end -16.002 11.4)
+    (stroke (width 0.12) (type solid)) (layer "F.SilkS") (tstamp be70c401-a752-4cf8-a4fe-ae48f3c96e3b))
+  (fp_line (start -16.002 -7.3) (end 15.65 -7.3)
+    (stroke (width 0.12) (type solid)) (layer "F.SilkS") (tstamp d0b3b806-20f0-479e-b25d-5ff02dd68e4d))
+  (fp_line (start -16.002 11.4) (end -14.92 11.4)
+    (stroke (width 0.12) (type solid)) (layer "F.SilkS") (tstamp e94fdca2-3d93-4a61-b0c6-972430fee649))
+  (fp_line (start -14.92 -7.3) (end -16.002 -7.3)
+    (stroke (width 0.12) (type solid)) (layer "F.SilkS") (tstamp c833f7d2-32cf-4851-aaf2-dbc81d0ed7d9))
+  (fp_line (start -14.92 -7.3) (end -14.92 7.3)
+    (stroke (width 0.12) (type solid)) (layer "F.SilkS") (tstamp ed625cfb-0fbf-4bba-92c2-628c7c7e4fd6))
+  (fp_line (start -14.92 7.3) (end -14.92 11.4)
+    (stroke (width 0.12) (type solid)) (layer "F.SilkS") (tstamp 1a3c019e-6c03-43ea-9d7a-accbc1e6f901))
+  (fp_line (start -14.92 7.3) (end 15.65 7.3)
+    (stroke (width 0.12) (type solid)) (layer "F.SilkS") (tstamp 9e0b0a0a-fe89-4168-a009-3b81b254cc72))
+  (fp_line (start 15.65 -7.3) (end 15.65 7.3)
+    (stroke (width 0.12) (type solid)) (layer "F.SilkS") (tstamp abf0368d-4796-4e5c-bc09-71634d1d684c))
+  (fp_line (start 15.65 7.3) (end 15.65 11.4)
+    (stroke (width 0.12) (type solid)) (layer "F.SilkS") (tstamp 8c675eb7-207e-47ee-af4c-7af7d30265f5))
+  (pad "1" thru_hole circle (at -10.16 -5.08) (size 3 3) (drill 2.4) (layers "*.Cu" "*.Mask") (tstamp 7f8dd587-ed3c-431f-a9d0-f6642176b710))
+  (pad "1" thru_hole custom (at -10.16 0) (size 1.524 1.524) (drill 0.6) (layers "*.Cu" "*.Mask")
+    (thermal_bridge_angle 45)
+    (options (clearance outline) (anchor rect))
+    (primitives
+      (gr_poly
+        (pts
+          (xy -2.95 -7)
+          (xy 2.95 -7)
+          (xy 2.95 7)
+          (xy -2.95 7)
+        )
+        (width 0.2) (fill yes))
+    ) (tstamp 2c2e3def-ef59-4899-b1c2-16c3d8810ab4))
+  (pad "1" thru_hole circle (at -10.16 5.08) (size 3 3) (drill 2.4) (layers "*.Cu" "*.Mask") (tstamp 2cd9e989-fd52-49ed-bab8-98902b48f9a4))
+  (pad "2" thru_hole circle (at 0 -5.08) (size 3 3) (drill 2.4) (layers "*.Cu" "*.Mask") (tstamp 6c59f10c-09ee-4527-9966-5b132651c090))
+  (pad "2" thru_hole custom (at 0 0) (size 1.524 1.524) (drill 0.6) (layers "*.Cu" "*.Mask")
+    (thermal_bridge_angle 45)
+    (options (clearance outline) (anchor rect))
+    (primitives
+      (gr_poly
+        (pts
+          (xy -2.95 -7)
+          (xy 2.95 -7)
+          (xy 2.95 7)
+          (xy -2.95 7)
+        )
+        (width 0.2) (fill yes))
+    ) (tstamp 0c9ee083-7b5b-4a66-bb0f-73b16a5c0370))
+  (pad "2" thru_hole circle (at 0 5.08) (size 3 3) (drill 2.4) (layers "*.Cu" "*.Mask") (tstamp f09e6098-56f9-4fc1-9cf5-b5327e617ce5))
+  (pad "3" thru_hole circle (at 10.16 -5.08) (size 3 3) (drill 2.4) (layers "*.Cu" "*.Mask") (tstamp 3368a10a-203f-4c3f-a7d6-8ea9d72a9f0a))
+  (pad "3" thru_hole custom (at 10.16 0) (size 1.524 1.524) (drill 0.6) (layers "*.Cu" "*.Mask")
+    (thermal_bridge_angle 45)
+    (options (clearance outline) (anchor rect))
+    (primitives
+      (gr_poly
+        (pts
+          (xy -2.95 -7)
+          (xy 2.95 -7)
+          (xy 2.95 7)
+          (xy -2.95 7)
+        )
+        (width 0.2) (fill yes))
+    ) (tstamp 06b2d2f6-5417-4f99-8633-eda5bdebd3b1))
+  (pad "3" thru_hole circle (at 10.16 5.08) (size 3 3) (drill 2.4) (layers "*.Cu" "*.Mask") (tstamp f64a92ce-e77c-448f-b276-3b683022adcd))
+  (group "2" (id aeaa4bb2-7ba9-4a4d-b52d-019008b915e1)
+    (members
+      0c9ee083-7b5b-4a66-bb0f-73b16a5c0370
+      6c59f10c-09ee-4527-9966-5b132651c090
+      f09e6098-56f9-4fc1-9cf5-b5327e617ce5
+    )
+  )
+  (group "3" (id cf9118a7-c519-4e35-b9b3-5dfb3c3d8473)
+    (members
+      06b2d2f6-5417-4f99-8633-eda5bdebd3b1
+      3368a10a-203f-4c3f-a7d6-8ea9d72a9f0a
+      f64a92ce-e77c-448f-b276-3b683022adcd
+    )
+  )
+  (group "1" (id dc0dec39-d639-41cd-93ca-fdb9aaedf396)
+    (members
+      2c2e3def-ef59-4899-b1c2-16c3d8810ab4
+      2cd9e989-fd52-49ed-bab8-98902b48f9a4
+      7f8dd587-ed3c-431f-a9d0-f6642176b710
+    )
+  )
+  (model "${KICAD7_3DMODEL_DIR}/Connector_Degson.3dshapes/DG135T-10.16-03P-14-00A(H).step"
+    (offset (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz -90 0 -90))
+  )
+)

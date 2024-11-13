@@ -1,21 +1,188 @@
-(module XTAL_ECS-.327-9-34B-C-TR (layer F.Cu) (tedit 612785D7)
-  (attr smd)
-  (fp_text reference REF** (at 0 -1.905) (layer F.SilkS)
-    (effects (font (size 1 1) (thickness 0.15)))
-  )
-  (fp_text value XTAL_ECS-.327-9-34B-C-TR (at 0 -3.175) (layer F.Fab)
-    (effects (font (size 1 1) (thickness 0.15)))
-  )
-  (fp_line (start -1.6 -0.75) (end -1.6 0.75) (layer F.Fab) (width 0.127))
-  (fp_line (start -1.6 0.75) (end 1.6 0.75) (layer F.Fab) (width 0.127))
-  (fp_line (start 1.6 0.75) (end 1.6 -0.75) (layer F.Fab) (width 0.127))
-  (fp_line (start 1.6 -0.75) (end -1.6 -0.75) (layer F.Fab) (width 0.127))
-  (fp_line (start -0.44 -0.75) (end 0.44 -0.75) (layer F.SilkS) (width 0.127))
-  (fp_line (start -0.44 0.75) (end 0.44 0.75) (layer F.SilkS) (width 0.127))
-  (fp_line (start -2.05 -1.2) (end 2.05 -1.2) (layer F.CrtYd) (width 0.05))
-  (fp_line (start 2.05 -1.2) (end 2.05 1.2) (layer F.CrtYd) (width 0.05))
-  (fp_line (start 2.05 1.2) (end -2.05 1.2) (layer F.CrtYd) (width 0.05))
-  (fp_line (start -2.05 1.2) (end -2.05 -1.2) (layer F.CrtYd) (width 0.05))
-  (pad 1 smd rect (at -1.25 0) (size 1.1 1.9) (layers F.Cu F.Paste F.Mask))
-  (pad 2 smd rect (at 1.25 0) (size 1.1 1.9) (layers F.Cu F.Paste F.Mask))
+(footprint "XTAL_ECS-.327-9-34B-C-TR"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -1.905 0)
+		(layer "F.SilkS")
+		(uuid "1c386b08-21d2-4978-915b-aabc5cffbb3a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "XTAL_ECS-.327-9-34B-C-TR"
+		(at 0 -3.175 0)
+		(layer "F.Fab")
+		(uuid "7ec311d8-9bea-4319-94bf-683fd52abea5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9a1c374e-9f54-4ef2-ae1d-2d68df1bd9d9")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3e2aface-a6aa-4e26-9872-1f0b0d22346e")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "59c5dcb5-1082-4a93-ad41-3b2ac656c66d")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.44 -0.75)
+		(end 0.44 -0.75)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b2037a4e-397d-48d5-ad22-bfe0566948b6")
+	)
+	(fp_line
+		(start -0.44 0.75)
+		(end 0.44 0.75)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b86c79e9-ad4f-44dc-9a60-6f9e528b50c9")
+	)
+	(fp_line
+		(start -2.05 -1.2)
+		(end 2.05 -1.2)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "766d5968-9505-4c67-9b1e-c26ff15292fd")
+	)
+	(fp_line
+		(start -2.05 1.2)
+		(end -2.05 -1.2)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "92b8e208-449b-486a-b8d5-e5053aaf1719")
+	)
+	(fp_line
+		(start 2.05 -1.2)
+		(end 2.05 1.2)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "0f388ad5-24e6-48d9-94d3-eaabf5ee866d")
+	)
+	(fp_line
+		(start 2.05 1.2)
+		(end -2.05 1.2)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "eebf61dc-c7be-4ec6-b0cc-9243a51b8d75")
+	)
+	(fp_line
+		(start -1.6 -0.75)
+		(end -1.6 0.75)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "4dcff302-ff30-4992-82a7-85c5e9cab5f8")
+	)
+	(fp_line
+		(start -1.6 0.75)
+		(end 1.6 0.75)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "08933070-c4e9-4e11-bcbf-99e630831bc4")
+	)
+	(fp_line
+		(start 1.6 -0.75)
+		(end -1.6 -0.75)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "597dde86-da8b-406d-8168-52fcd4de9a6d")
+	)
+	(fp_line
+		(start 1.6 0.75)
+		(end 1.6 -0.75)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "075bada4-350a-40c4-a7b7-b0073dba4238")
+	)
+	(pad "1" smd rect
+		(at -1.25 0)
+		(size 1.1 1.9)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "e8feab2f-1bd7-42f1-8a1e-8be486a7ff7b")
+	)
+	(pad "2" smd rect
+		(at 1.25 0)
+		(size 1.1 1.9)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "f96c88a5-d709-46ba-ad75-f6679ec98fcb")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Crystal.3dshapes/Crystal_SMD_MicroCrystal_CC7V-T1A-2Pin_3.2x1.5mm.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )
